@@ -1,14 +1,15 @@
-# Project Name
+# To-Do List App
 
-A short 1-2 line summary of what the project does and why you built it.
+A simple to-do list web app built with HTML, CSS, and vanilla JavaScript. Add tasks, mark them as done, and remove them, with no frameworks or libraries.
 
 ## Live Demo
-[View here](your-github-pages-link)
+[Try the app here](https://anshumita2006.github.io/todo-app/)
 
 ## Features
-- Feature 1 (e.g., add and delete tasks)
-- Feature 2 (e.g., saves data using localStorage)
-- Feature 3 (e.g., fully responsive layout)
+- Add tasks with the Add button or the Enter key
+- Input validation that stops empty tasks
+- Click a task to mark it complete (strike-through) or undo it
+- Delete tasks with the X button
 
 ## Tech Stack
 - HTML5
@@ -16,11 +17,15 @@ A short 1-2 line summary of what the project does and why you built it.
 - JavaScript (ES6)
 
 ## How to Run
-1. Clone the repo: `git clone https://github.com/yourusername/repo-name.git`
+1. Clone the repo: `git clone https://github.com/anshumita2006/todo-app.git`
 2. Open `index.html` in your browser
 
-## Screenshots
-![Screenshot](screenshot.png)
-
 ## What I Learned
-- DOM manipulation, event handling, working with localStorage, etc.
+- Creating and removing elements dynamically with the DOM
+- Handling click and keypress events
+- Toggling CSS classes with JavaScript
+- Validating user input
+
+## Future Improvements
+- Save tasks with localStorage so they persist after refresh
+- Add task editing and filters (all / active / completed)
